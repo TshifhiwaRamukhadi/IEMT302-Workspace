@@ -1,0 +1,7 @@
+TemperatureC,HumidityPct,WindSpeedKmh,PressureHpa,Rain
+30,45,10,1015,No
+24,70,18,1005,Yes
+28,55,12,1010,No
+22,85,20,1002,Yes
+35,40,15,1018,No
+19,90,25,999,Yes
