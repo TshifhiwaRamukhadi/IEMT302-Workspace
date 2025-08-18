@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rain Forecasting: Predicting Rain</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🌦️ Rain Forecasting</h1>
+    <p>Predict whether it will rain today based on current weather conditions.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Enter Current Conditions</h2>
+      <form id="predict-form">
+        <div class="grid">
+          <label>
+            <span>Temperature (°C)</span>
+            <input type="number" id="temperature" placeholder="e.g., 23" required />
+          </label>
+          <label>
+            <span>Humidity (%)</span>
+            <input type="number" id="humidity" placeholder="e.g., 82" required />
+          </label>
+          <label>
+            <span>Wind Speed (km/h)</span>
+            <input type="number" id="wind" placeholder="e.g., 22" required />
+          </label>
+          <label>
+            <span>Pressure (hPa)</span>
+            <input type="number" id="pressure" placeholder="e.g., 1003" required />
+          </label>
+        </div>
+        <button type="submit">Predict</button>
+      </form>
+      <div id="result" class="result" aria-live="polite"></div>
+    </section>
+
+    <section class="card">
+      <h2>How it works</h2>
+      <ul>
+        <li><strong>Features</strong>: Temperature, Humidity, Wind Speed, Pressure</li>
+        <li><strong>Label</strong>: Rain (Yes/No)</li>
+        <li><strong>Rule-based model</strong>: Derived from patterns in the sample data</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Sample Training Data</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Temperature (°C)</th>
+              <th>Humidity (%)</th>
+              <th>Wind (km/h)</th>
+              <th>Pressure (hPa)</th>
+              <th>Rain</th>
+            </tr>
+          </thead>
+          <tbody id="data-table"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Features = inputs, Label = Rain/No Rain. This demo uses a simple rule model.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
