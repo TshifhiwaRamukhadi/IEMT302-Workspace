@@ -1,0 +1,7 @@
+TemperatureC,HumidityPct,WindSpeedKmh,PressureHpa,Label
+30,45,10,1015,0
+24,70,18,1005,1
+28,55,12,1010,0
+22,85,20,1002,1
+35,40,15,1018,0
+19,90,25,999,1
