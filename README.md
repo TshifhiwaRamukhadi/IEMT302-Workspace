@@ -38,6 +38,10 @@ Located in `professional-profile/` directory - A personal portfolio website.
 
 Located in `weather_activity/` directory - A weather application project.
 
+### 4. Minimal Machine Learning Example
+
+Located in `ml_minimal/` directory - A NumPy-based linear regression example with a clear explanation and setup instructions.
+
 ## Requirements
 
 Each project has its own requirements. See individual project folders for specific dependencies.
