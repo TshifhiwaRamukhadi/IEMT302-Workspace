@@ -42,6 +42,10 @@ Located in `weather_activity/` directory - A weather application project.
 
 Located in `ml_minimal/` directory - A NumPy-based linear regression example with a clear explanation and setup instructions.
 
+### 5. Telegram spaCy Chatbot
+
+Located in `telegram_spacy_bot/` directory - A Telegram bot that uses spaCy to extract named entities and parts of speech from messages. See its README for setup, verification steps, and limitations.
+
 ## Requirements
 
 Each project has its own requirements. See individual project folders for specific dependencies.
