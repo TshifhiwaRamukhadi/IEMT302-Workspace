@@ -8,6 +8,8 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime
+import spacy
+from telegram import Update
 
 def scrape_local_news():
     """Scrape local news headlines from South African news websites"""
