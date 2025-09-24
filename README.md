@@ -1,58 +1,49 @@
-# IEMT302 Web Scraping Project
+# IEMT302 Workspace
 
-This project demonstrates web scraping using Python and Beautiful Soup to extract interesting local information from South African websites.
+This is my IEMT302 workspace containing various projects and assignments.
 
-## Features
+## Projects
 
-- **Local News Scraping**: Extracts headlines from South African news websites
-- **Weather Information**: Scrapes current weather data for Johannesburg
-- **Beautiful Soup Demonstration**: Shows various Beautiful Soup methods
-- **Data Export**: Saves scraped data in JSON format
+### 1. Web Scraping Project (Question 1)
 
-## Installation
+A comprehensive web scraping project using Python and Beautiful Soup to extract interesting local information from various South African websites.
 
-1. Clone this repository:
-```bash
-git clone https://github.com/TshifhiwaRamukhadi/IEMT302-Clean.git
-cd IEMT302-Clean
-```
-
-2. Install the required dependencies:
+**Quick Start:**
 ```bash
 pip install -r requirements.txt
+python main.py
 ```
 
-## Usage
+**Main Entry Point:**
+- `main.py` - Main script demonstrating Beautiful Soup usage (root directory)
 
-Run the web scraper:
-```bash
-python web_scraper.py
-```
+**Detailed Implementation:**
+Located in `web-scraping-project/` directory:
+- `demo.py` - Interactive Beautiful Soup demonstration
+- `simple_scraper.py` - Focused local information scraper
+- `web_scraper.py` - Comprehensive multi-source scraper
+- `WEB_SCRAPING_SUMMARY.md` - Complete project documentation
 
-## Beautiful Soup Examples
+**Features:**
+- Local news scraping from South African websites
+- Weather information for Johannesburg
+- Beautiful Soup functionality demonstration
+- Data export in JSON format
 
-```python
-from bs4 import BeautifulSoup
-import requests
+### 2. Professional Profile Project
 
-# Parse HTML content
-response = requests.get(url)
-soup = BeautifulSoup(response.content, 'html.parser')
+Located in `professional-profile/` directory - A personal portfolio website.
 
-# Find elements by tag
-headlines = soup.find_all('h1', 'h2', 'h3')
+### 3. Weather Activity Project
 
-# Find elements by class
-elements = soup.select('.headline')
+Located in `weather_activity/` directory - A weather application project.
 
-# Extract text content
-text = element.get_text(strip=True)
+## Requirements
 
-# Extract attributes
-link = element.get('href')
-```
+Each project has its own requirements. See individual project folders for specific dependencies.
 
 ## Author
 
 Tshifhiwa Ramukhadi
+Student ID: [Your Student ID]
 Course: IEMT302

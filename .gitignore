@@ -46,6 +46,14 @@ Thumbs.db
 
 # Project specific
 scraped_data.json
+weather_data.json
+weather_data.csv
+news_data.json
+news_data.csv
+restaurant_data.json
+restaurant_data.csv
+events_data.json
+events_data.csv
 
 # Logs
 *.log
@@ -57,3 +65,4 @@ logs/
 .env.development.local
 .env.test.local
 .env.production.local
+
